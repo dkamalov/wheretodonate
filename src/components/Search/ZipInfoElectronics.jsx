@@ -56,6 +56,7 @@ class ZipInfo extends Component {
               <Map google={this.props.google}
               zoom={17}
               style={mapStyles}
+              
               initialCenter={
                 {
                   lat: this.props.latitude,
