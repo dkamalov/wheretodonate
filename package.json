@@ -1,5 +1,6 @@
 {
   "name": "wheretodonate",
+  "homepage": "http://wheretodonate.nyc",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
