@@ -187,6 +187,7 @@ class ZipSearch extends Component {
                     zipcode={item.zipcode}
                     latitude={item.latitude}
                     longitude={item.longitude}
+                   
                   />
                 ))}
               </center>

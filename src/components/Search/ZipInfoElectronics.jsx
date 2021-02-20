@@ -51,18 +51,19 @@ class ZipInfo extends Component {
 <div className="containe mt-4" style={{maxWidth:'1000px', fontFamily: 'Poppins'}}> 
 		<div className="card mb-4 border border-light bg-white rounded" style={{border: 'none'}}>
 			<div className="row no-gutters">
-
 				<div class="col-md-7">
+
               <Map google={this.props.google}
               zoom={17}
               style={mapStyles}
-              
-              initialCenter={
-                {
-                  lat: this.props.latitude,
-                  lng: this.props.longitude
-                }
-              }
+              center={{
+                lat:this.props.latitude,
+                lng:this.props.longitude
+              }} 
+              initialCenter={{
+                lat:this.props.latitude,
+                lng:this.props.longitude
+              }}
             >
               <Marker
                 onClick={this.onMarkerClick}
@@ -79,13 +80,14 @@ class ZipInfo extends Component {
                   
                 </div>
               </InfoWindow>
-            </Map>        
+            </Map>       
+             
 				</div>		
 				<div class="col-md-5 align-self-center">
 
 					<div class="card-body">
           
-						<h5 class="card-title mt-3">{this.props.dropoff_sitename}</h5>
+						<h5 class="card-title mt-3">{this.props.dropoff_sitename} </h5>
 						
 						<h6 class="card-subtitle mb-2 text-muted mb-4"><svg xmlns="http://www.w3.org/2000/svg"
 								width="16" height="16" fill="currentColor" class="bi bi-geo-fill" viewBox="0 0 16 16">
@@ -95,7 +97,7 @@ class ZipInfo extends Component {
 								fill="currentColor" class="bi bi-phone-fill" viewBox="0 0 16 16">
 								<path
 									d="M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z" />
-							</svg> {this.props.phone}</h6>
+							</svg> {this.props.phone} </h6>
 						
 						<p class="card-text mb-4"><a href={this.props.website} target="_blank"
 								style={{textDecoration:'none', color:'#A0D4A4'}}><svg xmlns="http://www.w3.org/2000/svg"
