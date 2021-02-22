@@ -48,13 +48,12 @@ class ZipInfo extends Component {
     return (
 
 
-<div className="container mt-4"> 
-		<div className="card mb-4 border border-light bg-white rounded" style={{border: 'none'}}>
-			<div className="row no-gutters">
-
-				<div class="col-md-7">
+<div className="mt-4"> 
+		<div className="card mb-4 border border-light bg-white rounded" style={{border: 'none', maxWidth: '1000px'}}>
+			<div className="row g-0">
+				<div class="col-md-7" style={{minHeight: '200px'}}>
               <Map google={this.props.google}
-              zoom={17}
+              zoom={16}
               style={mapStyles}
               center={{
                 lat:this.props.latitude,
@@ -82,7 +81,7 @@ class ZipInfo extends Component {
               </InfoWindow>
             </Map>        
 				</div>		
-				<div class="col-md-5 align-self-center pt-3 pb-3">
+				<div class="col-md-5 align-self-center p-2">
 
 					<div class="card-body">
             
@@ -96,24 +95,24 @@ class ZipInfo extends Component {
             }
 
           {this.props.operationtype.length === 37 &&
-						<button class="btn btn-success btn-sm pl-2 pr-2 m-1"
+						<div class="btn btn-success btn-sm pl-2 pr-2 m-1"
 							style={{backgroundColor: '#F23A65', border:'none', borderRadius: '5px', cursor: 'default'}}><svg
 								xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
 								class="bi bi-shop-window" viewBox="0 0 16 16">
 								<path
 									d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.371 2.371 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976l2.61-3.045zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0zM1.5 8.5A.5.5 0 0 1 2 9v6h12V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5zm2 .5a.5.5 0 0 1 .5.5V13h8V9.5a.5.5 0 0 1 1 0V13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5a.5.5 0 0 1 .5-.5z" />
-							</svg> Thrift Shop</button>
+							</svg> Thrift Shop</div>
             }
 
             
           {this.props.operationtype.length === 33 &&
-            <button type="button" class="btn btn-success btn-sm pl-2 pr-2 m-1"
+            <div class="btn btn-success btn-sm pl-2 pr-2 m-1"
 							style={{backgroundColor: '#00B4FF', border:'none',borderRadius: '5px', cursor: 'default'}}><svg
 								xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
 								class="bi bi-trash2-fill" viewBox="0 0 16 16">
 								<path
 									d="M2.037 3.225A.703.703 0 0 1 2 3c0-1.105 2.686-2 6-2s6 .895 6 2a.702.702 0 0 1-.037.225l-1.684 10.104A2 2 0 0 1 10.305 15H5.694a2 2 0 0 1-1.973-1.671L2.037 3.225zm9.89-.69C10.966 2.214 9.578 2 8 2c-1.58 0-2.968.215-3.926.534-.477.16-.795.327-.975.466.18.14.498.307.975.466C5.032 3.786 6.42 4 8 4s2.967-.215 3.926-.534c.477-.16.795-.327.975-.466-.18-.14-.498-.307-.975-.466z" />
-							</svg> Donation Bin </button>
+							</svg> Donation Bin </div>
             }
 
           
@@ -138,8 +137,7 @@ class ZipInfo extends Component {
 									<path
 										d="M6.586 4.672A3 3 0 0 0 7.414 9.5l.775-.776a2 2 0 0 1-.896-3.346L9.12 3.55a2 2 0 0 1 2.83 2.83l-.793.792c.112.42.155.855.128 1.287l1.372-1.372a3 3 0 0 0-4.243-4.243L6.586 4.672z" />
 								</svg> Website </a></p>
-						<button type="button" onClick={this.handleClick} class="btn btn-primary btn-lg btn-block"
-							style={{backgroundColor:'#A0D4A4', border:'none', width: '75%', borderRadius: '30px', padding:'15px'}}>Directions</button>
+						<button type="button" onClick={this.handleClick} class="btn-directions btn-lg pl-5 pr-5 pt-3 pb-3">Directions</button>
 					</div>
 				</div>
 			</div>

@@ -132,7 +132,7 @@ class PharmaSearch extends Component {
           <div className="s013">
           <form>
             <fieldset>
-            <h3 className="text-center mt-5">You don’t want it, you don’t need it, you can’t use it?<br></br><b>We’ll help you find where to donate it.</b></h3>
+            <h3 className="text-center mt-5 mb-5">Don't want it? Don't need it? Don't use it?<br></br><b>We’ll help you find where to donate it.</b></h3>
             </fieldset>
             <div className="inner-form">
               <div className="left">
@@ -194,7 +194,7 @@ class PharmaSearch extends Component {
         </div>
       </div>
       <center>
-        <h5 className="mb-5 mt-3">✨ Sorry, no more results found. ✨</h5>
+        <h5 className="mb-5 mt-5">✨ Sorry, no more results found. ✨</h5>
         <img src={nyc} className="img-fluid"></img></center>
 </body>
 

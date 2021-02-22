@@ -27,6 +27,17 @@ textarea:focus, input:focus{
 label {
   margin-bottom: .2rem;
 }
+.btn-directions {
+  background: #A0D4A4;
+  color: #fff;
+  border:none;
+  transition: all .2s ease-out, color .2s ease-out;
+  border-radius: 50px !important;
+}
+.btn-directions:hover{
+  background: #8CBA90;
+  
+}
 
 /**
  * Add the correct display in IE 9-.
@@ -901,7 +912,6 @@ legend {
   width: 50%;
 }
 .s013 {
-  padding: 1em;
   font-family: 'Poppins', sans-serif;
   width: 100%;
   margin: 0;
@@ -910,7 +920,6 @@ legend {
 
 
 .s013 fieldset {
-  margin-bottom: 50px;
 }
 
 .s013 fieldset legend {

@@ -135,10 +135,11 @@ class ZipSearch extends Component {
 
 <body className="bg-color">
       <div class="containercenter">
-        <div className="s013" style={{maxWidth:'1000px', fontFamily: 'Poppins'}}>
+      <div class="container" style={{maxWidth:'1000px', fontFamily: 'Poppins', zIndex:'2'}}> 
+        <div className="s013">
           <form>
           <fieldset>
-          <h3 className="text-center">You don’t want it, you don’t need it, you can’t use it?<br></br><b>We’ll help you find where to donate it.</b></h3>
+          <h3 className="text-center mb-5">Don't want it? Don't need it? Don't use it?<br></br><b>We’ll help you find where to donate it.</b></h3>
           </fieldset>
           <div className="inner-form">
             <div className="left">
@@ -198,8 +199,11 @@ class ZipSearch extends Component {
 
 
         </div>
-        <div className="people"><center><img src={nyc} className="img-fluid"></img></center></div>
+      
       </div>
+      
+      </div>
+      <div className="people" style={{zIndex:'1'}}><center><img src={nyc} className="img-fluid"></img></center></div>
 </body>
 
     );
