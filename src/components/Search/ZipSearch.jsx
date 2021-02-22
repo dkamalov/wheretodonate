@@ -2,14 +2,12 @@ import React, { Component} from "react";
 import axios from "axios";
 import 'bootstrap/dist/css/bootstrap.css';
 import 'react-bootstrap';
-import ZipInfo from "./ZipInfo";
 import nyc from '../../images/nyc.png';
 import "choices.js/public/assets/styles/choices.min.css";
 import Selection from './Selection';
-import {Link, withRouter} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import PropTypes from 'prop-types';
 import ZipInfoElectronics from "./ZipInfoElectronics";
-import {Redirect} from 'react-router-dom';
 
 
 class ZipSearch extends Component {
@@ -209,4 +207,4 @@ class ZipSearch extends Component {
     );
   }
 }
-export default withRouter(ZipSearch);
+export default ZipSearch;

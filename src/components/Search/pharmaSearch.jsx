@@ -2,13 +2,11 @@ import React, { Component} from "react";
 import axios from "axios";
 import 'bootstrap/dist/css/bootstrap.css';
 import 'react-bootstrap';
-import ZipInfo from "./ZipInfo";
 import nyc from '../../images/nyc.png';
 import "choices.js/public/assets/styles/choices.min.css";
 import SelectionP from './SelectionP';
 import {Link} from 'react-router-dom';
 import ZipInfoP from "./ZipInfoPharma";
-import {Redirect} from 'react-router-dom';
 
 
 class PharmaSearch extends Component {

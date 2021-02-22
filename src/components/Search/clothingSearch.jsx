@@ -6,12 +6,7 @@ import ZipInfo from "./ZipInfo";
 import nyc from '../../images/nyc.png';
 import "choices.js/public/assets/styles/choices.min.css";
 import Selection from './Selection';
-import { Link, withRouter } from 'react-router-dom';
-import PropTypes from 'prop-types';
-import ZipInfoElectronics from "./ZipInfoElectronics";
-import { Redirect } from 'react-router-dom';
-import ZipSearch from './ZipSearch';
-
+import { Link} from 'react-router-dom';
 
 class ClothingSearch extends Component {
   constructor(props) {
