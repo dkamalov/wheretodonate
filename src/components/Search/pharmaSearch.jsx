@@ -7,7 +7,7 @@ import nyc from '../../images/nyc.png';
 import "choices.js/public/assets/styles/choices.min.css";
 import SelectionP from './SelectionP';
 import {Link} from 'react-router-dom';
-import ZipInfoElectronics from "./ZipInfoElectronics";
+import ZipInfoP from "./ZipInfoPharma";
 import {Redirect} from 'react-router-dom';
 
 
@@ -168,10 +168,10 @@ class PharmaSearch extends Component {
               <center>
               
                 {this.state.zip.map((item, index) => (
-                  <ZipInfoElectronics
+                  <ZipInfoP
                     key={index}
                     address={item.address}
-                    phone={item.public_phone}
+                    phone={item.contact_phone_number}
                     website = {item.website}
                     operationtype = {item.operations_type}
                     dropoff_sitename={

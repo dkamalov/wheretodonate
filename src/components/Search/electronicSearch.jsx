@@ -171,7 +171,6 @@ class ElectronicSearch extends Component {
                   <ZipInfoElectronics
                     key={index}
                     address={item.address}
-                    phone={item.public_phone}
                     website = {item.website}
                     operationtype = {item.operations_type}
                     dropoff_sitename={
