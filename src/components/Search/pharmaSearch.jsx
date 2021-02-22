@@ -147,7 +147,7 @@ class PharmaSearch extends Component {
                 <div className="input-wrap second">
                   <div className="input-field second">
                     <label>My Zipcode Is</label>
-                    <input name="code" placeholder={this.state.code}  type="text" onChange={(e) => { this.setZip(e); }} />
+                    <input name="code" value={this.state.code}  type="text" onChange={(e) => { this.setZip(e); }} />
                   </div>
                 </div>
               </div>
