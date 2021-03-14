@@ -3,7 +3,6 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import ZipSearch from '../src/components/Search/ZipSearch.jsx';
-import Home from '../src/components/Pages/Home/Home.jsx';
 import ClothingSearch from './components/Search/clothingSearch';
 import ElectronicSearch from './components/Search/electronicSearch';
 import PharmaSearch from './components/Search/pharmaSearch';
