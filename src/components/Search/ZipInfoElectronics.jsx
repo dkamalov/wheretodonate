@@ -13,11 +13,8 @@ class ZipInfo extends Component {
       showingInfoWindow: false,  // Hides or shows the InfoWindow
       activeMarker: {},          // Shows the active marker upon click
       selectedPlace: {} ,
-      
              // Shows the InfoWindow to the selected place upon a marker
   };
-
- 
 
   onMarkerClick = (props, marker, e) =>
     this.setState({
@@ -40,13 +37,9 @@ class ZipInfo extends Component {
     window.open("https://maps.google.com?q="+this.props.latitude+","+this.props.longitude);
   }
 
-
   render() {
     
-
-
     return (
-
 
 <div className="mt-4"> 
 		<div className="card mb-4 border border-light bg-white rounded" style={{border: 'none'}}>
@@ -88,9 +81,7 @@ class ZipInfo extends Component {
 					<div class="card-body">
           
 						<h5 class="card-title mt-3">{this.props.dropoff_sitename} </h5>
-
-
-						
+				
 						<h6 class="card-subtitle mb-2 text-muted mb-4"><svg xmlns="http://www.w3.org/2000/svg"
 								width="16" height="16" fill="currentColor" class="bi bi-geo-fill" viewBox="0 0 16 16">
 								<path fill-rule="evenodd"
@@ -103,65 +94,11 @@ class ZipInfo extends Component {
 				</div>
 			</div>
 		</div>
-
-    
-    {/*href={'https://maps.google.com?q='+this.props.latitude+','+this.props.longitude*/}
-  
-	
-    
 	</div>
-  
 
-
-
-
-    
     );
   }
 }
 export default GoogleApiWrapper({
   apiKey: 'AIzaSyBUeZg5hbGAsMMEX-3UCAjZP91oooJoGkI'
 })(ZipInfo);
-
-{/*}  <div className="Info">
-        <header className="head">
-          <hr></hr>
-          <h5>
-            {this.props.dropoff_sitename}, {this.props.zipcode}
-          </h5>
-        </header>
-        
-        <div className="container">
-            {" "}<h5>Address: {this.props.address}</h5>{" "}
-            <hr></hr>
-            
-            <Map
-              google={this.props.google}
-              zoom={17}
-              style={mapStyles}
-              initialCenter={
-                {
-                  lat: this.props.latitude,
-                  lng: this.props.longitude
-                }
-              }
-            >
-              <Marker
-                onClick={this.onMarkerClick}
-                name={this.props.dropoff_sitename}
-              />
-              
-              <InfoWindow
-                marker={this.state.activeMarker}
-                visible={this.state.showingInfoWindow}
-                onClose={this.onClose}
-              >
-                <div>
-                  <h4>{this.state.selectedPlace.name}</h4>
-                  
-                </div>
-              </InfoWindow>
-            </Map>
-           
-            </div>
-      </div> */}
