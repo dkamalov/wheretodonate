@@ -28,9 +28,9 @@ function App() {
  <HashRouter>
       <Router>
           <Switch>
-              <Route exact path = "/">
+              
                 <ZipSearch/>
-              </Route>
+             
               <Route path = "/clothing" component={ClothingSearch}></Route>
               <Route path = "/electronics" component={ElectronicSearch}></Route>
               <Route path = "/pharma" component={PharmaSearch}></Route>
