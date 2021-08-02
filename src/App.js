@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div className="App">
- <hashRouter>
+ <browserRouter>
       <Router>
           <Switch>
               <Route exact path = "/">
@@ -36,7 +36,7 @@ function App() {
               
          </Switch>
       </Router>
-    </hashRouter>
+    </browserRouter>
     </div>
   );
 }
