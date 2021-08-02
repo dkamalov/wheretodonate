@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
 import ZipSearch from '../src/components/Search/ZipSearch.jsx';
 import ClothingSearch from './components/Search/clothingSearch';
@@ -24,7 +25,7 @@ function App() {
 
   return (
     <div className="App">
- <browserRouter>
+ <HashRouter>
       <Router>
           <Switch>
               <Route exact path = "/">
@@ -36,7 +37,7 @@ function App() {
               
          </Switch>
       </Router>
-    </browserRouter>
+    </HashRouter>
     </div>
   );
 }
