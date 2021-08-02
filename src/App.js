@@ -27,7 +27,7 @@ function App() {
  <browserRouter>
       <Router>
           <Switch>
-              <Route exact path = "/">
+              <Route exact path = "/wheretodonate">
                 <ZipSearch/>
               </Route>
               <Route path = "/clothing" component={ClothingSearch}></Route>
