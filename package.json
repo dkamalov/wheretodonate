@@ -1,5 +1,6 @@
 {
   "name": "wheretodonate",
+  "homepage": "https://dkamalov.github.io/wheretodonate/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
