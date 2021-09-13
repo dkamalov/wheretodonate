@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/wheretodonate/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/wheretodonate/static/js/main.c18e1206.chunk.js",
-    "main.js.map": "/wheretodonate/static/js/main.c18e1206.chunk.js.map",
-    "runtime-main.js": "/wheretodonate/static/js/runtime-main.87a989bf.js",
-    "runtime-main.js.map": "/wheretodonate/static/js/runtime-main.87a989bf.js.map",
-    "static/css/2.49feaf4f.chunk.css": "/wheretodonate/static/css/2.49feaf4f.chunk.css",
-    "static/js/2.b8287460.chunk.js": "/wheretodonate/static/js/2.b8287460.chunk.js",
-    "static/js/2.b8287460.chunk.js.map": "/wheretodonate/static/js/2.b8287460.chunk.js.map",
-    "static/js/3.818dbff5.chunk.js": "/wheretodonate/static/js/3.818dbff5.chunk.js",
-    "static/js/3.818dbff5.chunk.js.map": "/wheretodonate/static/js/3.818dbff5.chunk.js.map",
+    "main.css": "/wheretodonate/static/css/main.7d180cbf.chunk.css",
+    "main.js": "/wheretodonate/static/js/main.6f9748fe.chunk.js",
+    "main.js.map": "/wheretodonate/static/js/main.6f9748fe.chunk.js.map",
+    "runtime-main.js": "/wheretodonate/static/js/runtime-main.fd64616a.js",
+    "runtime-main.js.map": "/wheretodonate/static/js/runtime-main.fd64616a.js.map",
+    "static/css/2.32975ffa.chunk.css": "/wheretodonate/static/css/2.32975ffa.chunk.css",
+    "static/js/2.04087d43.chunk.js": "/wheretodonate/static/js/2.04087d43.chunk.js",
+    "static/js/2.04087d43.chunk.js.map": "/wheretodonate/static/js/2.04087d43.chunk.js.map",
+    "static/js/3.384b8e77.chunk.js": "/wheretodonate/static/js/3.384b8e77.chunk.js",
+    "static/js/3.384b8e77.chunk.js.map": "/wheretodonate/static/js/3.384b8e77.chunk.js.map",
     "index.html": "/wheretodonate/index.html",
-    "static/css/2.49feaf4f.chunk.css.map": "/wheretodonate/static/css/2.49feaf4f.chunk.css.map",
-    "static/css/main.8c8b27cf.chunk.css.map": "/wheretodonate/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.b8287460.chunk.js.LICENSE.txt": "/wheretodonate/static/js/2.b8287460.chunk.js.LICENSE.txt",
+    "static/css/2.32975ffa.chunk.css.map": "/wheretodonate/static/css/2.32975ffa.chunk.css.map",
+    "static/css/main.7d180cbf.chunk.css.map": "/wheretodonate/static/css/main.7d180cbf.chunk.css.map",
+    "static/js/2.04087d43.chunk.js.LICENSE.txt": "/wheretodonate/static/js/2.04087d43.chunk.js.LICENSE.txt",
     "static/media/nyc.84f6fb6e.png": "/wheretodonate/static/media/nyc.84f6fb6e.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.87a989bf.js",
-    "static/css/2.49feaf4f.chunk.css",
-    "static/js/2.b8287460.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.c18e1206.chunk.js"
+    "static/js/runtime-main.fd64616a.js",
+    "static/css/2.32975ffa.chunk.css",
+    "static/js/2.04087d43.chunk.js",
+    "static/css/main.7d180cbf.chunk.css",
+    "static/js/main.6f9748fe.chunk.js"
   ]
 }
