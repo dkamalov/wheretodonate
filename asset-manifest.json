@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/wheretodonate/static/css/main.7d180cbf.chunk.css",
-    "main.js": "/wheretodonate/static/js/main.6f9748fe.chunk.js",
-    "main.js.map": "/wheretodonate/static/js/main.6f9748fe.chunk.js.map",
+    "main.js": "/wheretodonate/static/js/main.c98b4fd8.chunk.js",
+    "main.js.map": "/wheretodonate/static/js/main.c98b4fd8.chunk.js.map",
     "runtime-main.js": "/wheretodonate/static/js/runtime-main.fd64616a.js",
     "runtime-main.js.map": "/wheretodonate/static/js/runtime-main.fd64616a.js.map",
     "static/css/2.32975ffa.chunk.css": "/wheretodonate/static/css/2.32975ffa.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.32975ffa.chunk.css",
     "static/js/2.04087d43.chunk.js",
     "static/css/main.7d180cbf.chunk.css",
-    "static/js/main.6f9748fe.chunk.js"
+    "static/js/main.c98b4fd8.chunk.js"
   ]
 }
