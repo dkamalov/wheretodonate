@@ -140,7 +140,7 @@ class ClothingSearch extends Component {
               <div className="left">
                 <div className="input-wrap first">
                   <div className="input-field first">
-                    <label> I Want To Donate </label>
+                    <label align={'left'}> I Want To Donate </label>
                     <div className="input-select">
                       <Selection
                         setType={this.setType}
@@ -150,7 +150,7 @@ class ClothingSearch extends Component {
                 </div>
                 <div className="input-wrap second">
                   <div className="input-field second">
-                    <label>My Zipcode Is</label>
+                    <label align={'left'}>My Zipcode Is</label>
                     <input name="code" value={this.state.code}  type="text" onChange={(e) => { this.setZip(e); }} />
                   </div>
                 </div>

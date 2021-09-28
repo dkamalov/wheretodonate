@@ -143,5 +143,5 @@ class ZipInfo extends Component {
   }
 }
 export default GoogleApiWrapper({
-  apiKey: 'AIzaSyBUeZg5hbGAsMMEX-3UCAjZP91oooJoGkI'
+  apiKey: 'AIzaSyD6sGwwLzXgU1mddD7zwkXckq57WqKns5g'
 })(ZipInfo);
